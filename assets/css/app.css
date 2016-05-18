@@ -1,0 +1,62 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+img,
+video,
+iframe {
+    position:fixed;
+    top:0;
+    left:0;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    animation: starter 800ms 1 linear;
+    transition: all 500ms ease;
+    border: 0px solid black;
+}
+
+@keyframes starter {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.blur {
+    -webkit-filter: blur(3px);
+}
+
+.grayscale {
+    -webkit-filter: grayscale(1);
+}
+
+.sepia {
+    -webkit-filter: sepia(1);
+}
+
+.brightness {
+    -webkit-filter: brightness(2.5);
+}
+
+-webkit-filter: contrast(5);
+-webkit-filter: hue-rotate(125deg);
+-webkit-filter: invert(1);
+-webkit-filter: saturate(3);
+-webkit-filter: opacity(0.3);
