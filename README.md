@@ -10,22 +10,22 @@ Chrome VJ is very simply, you can convert Chrome in  app for live acts or presen
 
 Open folder of Chrome-VJ on  shell.
 
-´´´
+
     // install node modules on folder
     npm install connect serve-static
 
-´´´
+
 
 Paste your videos,images and frames on library, I add example for first experience :);
 
 
 Start App
 
-´´´
+
     // init server
     node  server.js
 
-´´´
+
 
 Go to  http://localhost:9625 open inspector and enjoy.
 
@@ -37,7 +37,7 @@ Go to  http://localhost:9625 open inspector and enjoy.
 
 ### Available Commands
 
-´´´
+
     vj.list() // Get list//Elements
      video,frame,image,camera
     //Add Elements
@@ -62,6 +62,6 @@ Go to  http://localhost:9625 open inspector and enjoy.
     vj.zoom('0.5'); // zoom
     //Clear Element
     vj.clear(element); // clear element
-´´´
+
 
 Sorry for my English and enjoy ;)
