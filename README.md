@@ -64,4 +64,6 @@ Go to  http://localhost:9625 open inspector and enjoy.
     vj.clear(element); // clear element
 
 
+Check my videos on [Instagram](https://www.instagram.com/monchovarela/) for demos.
+
 Sorry for my English and enjoy ;)
